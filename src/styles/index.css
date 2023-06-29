@@ -1,0 +1,19 @@
+:root {
+  --nav: #04bd38;
+  --fontStyle: sans-serif;
+}
+.listItem {
+  color: black;
+}
+
+@media only screen and (max-width: 424px) {
+  #card-image {
+    width: 11rem;
+  }
+  :root {
+    font-size: 11px;
+  }
+}
+body {
+  background-color: #eff0f9;
+}

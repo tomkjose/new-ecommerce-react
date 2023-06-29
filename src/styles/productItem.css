@@ -1,0 +1,95 @@
+.product_card {
+  border-radius: 0.8rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1rem;
+  padding: 1rem;
+}
+.product_title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.product_list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+}
+.card_items {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0 0 0;
+}
+.form-control {
+  width: 100%;
+}
+.avatar {
+  border-radius: 100%;
+  cursor: pointer;
+}
+.form_card {
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.form_input {
+  border: none;
+  padding: 1rem;
+  margin: 0.5rem;
+  border-radius: 0.8rem;
+}
+
+.cart_product_container {
+  border-radius: 0.8rem;
+  padding: 1rem;
+}
+.btn-inc {
+  cursor: pointer;
+}
+.price_text {
+  font-weight: 400;
+}
+.product_details {
+  background-color: white;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+}
+.image_container {
+  border-radius: 0.8rem;
+}
+.product_image_div {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 0.8rem;
+}
+.thumbnail {
+  border-radius: 0.8rem;
+}
+.thumbnail_product {
+  border-radius: 0.8rem;
+  cursor: pointer;
+}
+.price_text {
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.submit_button {
+  width: 100%;
+  background-color: #04bd38;
+  border: none;
+}
+@media only screen and (max-width: 992px) {
+  #detailAddedImage {
+    width: 100%;
+  }
+  .product_card {
+    width: 100%;
+  }
+}
