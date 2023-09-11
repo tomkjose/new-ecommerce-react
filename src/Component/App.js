@@ -3,7 +3,7 @@ import ProductDetail from "./ProductDetail";
 import AddProduct from "./AddProduct";
 import CartItems from "./CartItems";
 import ProductItemList from "./ProductItemList";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { addproducts } from "../actions/index";
 import { useEffect } from "react";
@@ -28,7 +28,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <HashRouter>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<ProductItemList />} />
@@ -39,7 +39,7 @@ const App = () => {
           />
           <Route path="/cart" element={<CartItems />} />
         </Routes>
-      </HashRouter>
+      </Router>
     </div>
   );
 };
